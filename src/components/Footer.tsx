@@ -1,7 +1,7 @@
 
 "use client";
 
-import { FiGithub, FiLinkedin, FiFacebook } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
@@ -26,12 +26,12 @@ const Footer = () => {
           <FiLinkedin size={20} />
         </a>
         <a
-          href="https://www.facebook.com/mdsab123sagari"
+          href="https://www.instagram.com/mohammed_sagari/"
           target="_blank"
           rel="noreferrer"
           className="hover:text-green transition-colors"
         >
-          <FiFacebook size={20} />
+          <FiInstagram size={20} />
         </a>
         <a
           href="https://x.com/Mohammedsagari"

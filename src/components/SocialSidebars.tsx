@@ -2,7 +2,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FiGithub, FiLinkedin, FiFacebook } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 
 const SocialSidebars = () => {
@@ -37,12 +37,12 @@ const SocialSidebars = () => {
           </li>
           <li>
             <a
-              href="https://www.facebook.com/mdsab123sagari"
+              href="https://www.instagram.com/mohammed_sagari/"
               target="_blank"
               rel="noreferrer"
               className="p-2 inline-block hover:text-green hover:-translate-y-1 transition-all"
             >
-              <FiFacebook size={20} />
+              <FiInstagram size={20} />
             </a>
           </li>
           <li>

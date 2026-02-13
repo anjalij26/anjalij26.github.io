@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const firaCode = Fira_Code({ subsets: ["latin"], variable: "--font-fira-code" });
 
 export const metadata: Metadata = {
-  title: "Mohammed Sab Sagari | Systems Administrator & DevOps Engineer",
-  description: "Portfolio of Mohammed Sab Sagari, a System Administrator and DevOps Engineer.",
+  title: "Anjali Jadhav | DevOps Engineer",
+  description: "Portfolio of Anjali Jadhav, a DevOps Engineer specializing in CI/CD automation and GitOps-based deployments.",
 };
 
 import Navbar from "@/components/Navbar";

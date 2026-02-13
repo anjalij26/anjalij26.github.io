@@ -35,30 +35,25 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="md:col-span-2 text-slate text-lg leading-relaxed space-y-4">
             <p>
-              Hello! My name is Mohammed Sab Sagari and I enjoy optimizing systems and automating workflows. My interest
-              in IT infrastructure started back in 2018 when I began my journey as an Information Technology Fellow at
-              MKCL.
+              Hello! My name is Anjali Jadhav. I am a DevOps Engineer with hands-on experience in GitHub Actions and ArgoCD for CI/CD automation and GitOps-based deployments.
             </p>
             <p>
-              I hold a Master of Science in Computer Science from <span className="text-green">Savitribai Phule Pune University</span> and
-              a Bachelor of Science in Computer System Administration from <span className="text-green">YCMOU University</span>.
+              I am experienced in Docker, Kubernetes (K8s/K3s), Helm, and monitoring using Grafana and Prometheus across Linux and AWS environments. I am skilled in supporting production systems, troubleshooting deployments, and improving DevOps workflows.
             </p>
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{" "}
-              <span className="text-green">LetsReflect</span> as a System Administrator. My main focus these days is
-              building robust infrastructure, automating pipelines, and ensuring system reliability.
+              I hold a B.Tech in CSE (08/2019 – 08/2023).
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
             <ul className="grid grid-cols-2 gap-2 mt-4 font-mono text-sm">
               {[
-                "Kubernetes & Docker",
                 "GitHub Actions & Jenkins",
-                "Ansible & Terraform",
+                "ArgoCD & Helm",
+                "Docker & Kubernetes",
+                "AWS (EC2, VPC, IAM)",
                 "Prometheus & Grafana",
-                "AWS / GCP / DigitalOcean",
-                "Linux / Windows Server",
-                "SQL & NoSQL Databases",
-                "Nginx / Apache / IIS",
+                "Ansible & Terraform",
+                "Linux Administration",
+                "Python & Shell Scripting",
               ].map((skill, i) => (
                 <li key={i} className="flex items-center gap-2">
                   <span className="text-green text-xs">▹</span>
@@ -72,7 +67,7 @@ const About = () => {
             <div className="relative z-10 bg-green/20 rounded overflow-hidden aspect-square group-hover:bg-transparent transition-colors">
               <img
                 src="/photo.jpg"
-                alt="Mohammed Sab Sagari"
+                alt="Anjali Jadhav"
                 className="w-full h-full object-cover mix-blend-multiply grayscale hover:mix-blend-normal hover:grayscale-0 transition-all duration-300"
               />
             </div>

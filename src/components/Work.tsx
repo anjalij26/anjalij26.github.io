@@ -6,24 +6,24 @@ import { FiExternalLink, FiGithub, FiFolder } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Infrastructure Automation & Security",
+    title: "CI/CD Pipeline Automation",
     description:
-      "Automated infrastructure provisioning using Ansible and Proxmox VM templates. Implemented HashiCorp Vault for centralized secrets management integrated with CI/CD pipelines, improving security of application deployments.",
-    tech: ["Ansible", "Proxmox", "HashiCorp Vault"],
+      "Designed and implemented automated CI/CD pipelines using GitHub Actions, enabling seamless build, test, and deployment workflows. Integrated with Docker and Helm for consistent delivery across environments.",
+    tech: ["GitHub Actions", "Docker", "Helm", "ArgoCD"],
     links: { github: "#", external: "#" },
   },
   {
-    title: "High Availability Monitoring",
+    title: "GitOps Deployment System",
     description:
-      "Implemented centralized monitoring using Prometheus, Grafana, Loki, and Uptime Kuma. Configured proactive alerting for critical system resources across multiple servers to ensure high uptime and reduce troubleshooting time.",
-    tech: ["Prometheus", "Grafana", "Loki", "Uptime Kuma"],
+      "Implemented GitOps-based deployments using ArgoCD to manage applications across Dev, UAT, and Production environments, ensuring synchronization, version control, and rapid rollbacks.",
+    tech: ["ArgoCD", "Kubernetes", "GitOps", "YAML"],
     links: { github: "#", external: "#" },
   },
   {
-    title: "Kubernetes Orchestration",
+    title: "Cloud Infrastructure Management",
     description:
-      "Built and administered Kubernetes clusters using kubeadm, Helm, and Argo CD. Enabled automated deployments and improved scalability of microservices-based applications across development and production.",
-    tech: ["Kubernetes", "Helm", "Argo CD", "Docker"],
+      "Managed AWS infrastructure including EC2, VPC, IAM, and Route53. Configured auto-scaling, load balancers, and monitoring with CloudWatch, Prometheus, and Grafana for high availability.",
+    tech: ["AWS", "Terraform", "Prometheus", "Grafana"],
     links: { github: "#", external: "#" },
   },
 ];

@@ -10,47 +10,27 @@ const Footer = () => {
       {/* Social links for mobile */}
       <div className="flex md:hidden gap-6 text-light-slate mb-2">
         <a
-          href="https://github.com/mohammedssab"
-          target="_blank"
-          rel="noreferrer"
+          href="#"
           className="hover:text-green transition-colors"
         >
           <FiGithub size={20} />
         </a>
         <a
-          href="https://www.linkedin.com/in/mohammed-sab-sagari"
+          href="https://www.linkedin.com/in/anjali-jadhav-897443244"
           target="_blank"
           rel="noreferrer"
           className="hover:text-green transition-colors"
         >
           <FiLinkedin size={20} />
         </a>
-        <a
-          href="https://www.instagram.com/mohammed_sagari/"
-          target="_blank"
-          rel="noreferrer"
-          className="hover:text-green transition-colors"
-        >
-          <FiInstagram size={20} />
-        </a>
-        <a
-          href="https://x.com/Mohammedsagari"
-          target="_blank"
-          rel="noreferrer"
-          className="hover:text-green transition-colors"
-        >
-          <FaXTwitter size={20} />
-        </a>
       </div>
 
       <div className="text-slate font-mono text-xs hover:text-green transition-colors">
         <a
-            href="https://github.com/bchiang7/v4"
-            target="_blank"
-            rel="noreferrer"
-            className="block mb-1"
+          href="#"
+          className="block mb-1"
         >
-            Built by Mohammed Sab Sagari
+          Built by Anjali Jadhav
         </a>
         <p>Inspired by Brittany Chiang</p>
       </div>

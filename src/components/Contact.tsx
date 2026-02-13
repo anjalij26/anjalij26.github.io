@@ -19,7 +19,7 @@ const Contact = () => {
           to say hi, I’ll try my best to get back to you!
         </p>
         <a
-          href="mailto:mdsab123sagari@gmail.com"
+          href="mailto:anjali.sjadhav26@gmail.com"
           className="text-green border border-green rounded px-8 py-4 font-mono text-sm hover:bg-green/10 transition-colors inline-block"
         >
           Say Hello
